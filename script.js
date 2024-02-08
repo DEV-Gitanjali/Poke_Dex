@@ -16,3 +16,10 @@ const colors = {
 	fighting: '#E6E0D4',
 	normal: '#F5F5F5'
 }
+
+const fetchPokemons = async () =>{
+    for(let i=1 ; i<=pokemon_count; i ++)
+
+    await getPokemon(i)
+}
+
